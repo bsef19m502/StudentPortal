@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.AddNewCourse">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/courseName"
+       android:hint="Enter Course Name"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="15pt"
+       android:layout_marginRight="40dp"
+       ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseDep"
+        android:hint="Enter Course Departement"
+        android:layout_below="@+id/courseName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseTeacher"
+        android:hint="Enter Course Teacher"
+        android:layout_below="@+id/courseDep"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseYear"
+        android:hint="Enter Course Year"
+        android:layout_below="@+id/courseTeacher"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseCode"
+        android:hint="Enter Course Code"
+        android:layout_below="@+id/courseYear"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/courseCode"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        android:id="@+id/save"></Button>
+</RelativeLayout>
+
+</FrameLayout>

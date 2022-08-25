@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Data"
+        android:textSize="16sp"
+        android:layout_below="@+id/sign"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/data"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/nameee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/data"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        android:hint="Name"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameee"
+        android:hint="Email"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15pt"
+        android:id="@+id/emaileee"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/phoneNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emaileee"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        android:hint="Phone no."></EditText>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNO"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        ></EditText>
+    <EditText
+        android:id="@+id/passRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15pt"
+        android:layout_marginRight="40dp"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        ></EditText>
+
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passRe"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/black"
+        android:text="SIGN UP"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"></Button>
+
+
+</RelativeLayout>
